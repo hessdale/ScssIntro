@@ -2,10 +2,10 @@ main {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr; }
 
-p {
-  font-size: 50px; }
-
 article {
   width: 60%; }
   article > p:hover {
     background-color: darkslategrey; }
+  article p {
+    font-size: 50px;
+    color: purple; }
