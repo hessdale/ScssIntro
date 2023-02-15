@@ -6,3 +6,11 @@ main {
 p {
     font-size: 50px;
 }
+
+article {
+    width: 60%;
+
+    &>p:hover {
+        background-color: darkslategrey;
+    }
+}
